@@ -1,4 +1,4 @@
-"use strict"
+"use strict"       // MAIN CRIADO PARA IMPORTAR OS MÓDULOS
 
 // Configuração do dayjs
 import "./libs/dayjs.js"
@@ -12,3 +12,5 @@ import dayjs from "dayjs"
 console.log(dayjs().format("DD/MM - HH:mm"))
 
 import "./modules/form/submit.js"
+
+import "./modules/load.js"
